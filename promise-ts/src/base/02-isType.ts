@@ -14,3 +14,4 @@ console.log(utils.isString('123'));
 console.log(utils.isNumber(123));
 console.log(utils.isNumber({}));
 console.log(utils.isBoolean(false));
+export {}
