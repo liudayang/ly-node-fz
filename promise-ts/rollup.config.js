@@ -3,7 +3,7 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 import ts from 'rollup-plugin-typescript2';
 
 export default {
-    input: 'src/index.ts',
+    input: 'src/index.js',
     output: {
         format: 'cjs',
         file: path.resolve('dist/bundle.js')
